@@ -139,6 +139,19 @@
 * <https://vimeo.com/8850909>
 * <http://vtrifonov.livejournal.com/16965.html>
 
+amlab.me — обучение фотографии и всему вокруг:
+* [платные курсы](https://amlab.me/library)
+* [бесплатные стримы](https://amlab.me/streams)
+  * [Александр Амбалов – Обработка в Lightroom](https://amlab.me/stream-processing), [Youtube](https://www.youtube.com/watch?v=9yqSJ2XccUw)
+
+Видео Амбалова:
+* [Жарим RAW](https://www.youtube.com/playlist?list=PL94E504C651984B45):
+  * [Выпуск 69 – Мужской портрет](https://www.youtube.com/watch?v=yFfYWKDhkEk)
+* [Цвет наше всё](https://www.youtube.com/playlist?list=PL10B1528741FDE614)
+  * [Выпуск 84 – Разбор VSCO Film 05](https://www.youtube.com/watch?v=6rfW3bO4ekI)
+* [Плейлист на Youtube Диана Любимовой](https://www.youtube.com/playlist?list=PLifCbIks8xwX4PqtloLMNz8QCRW_R50_Z)
+* [Digital forge](https://www.youtube.com/user/zhenya4547/videos)
+  * [Обработай нахаляву – 01.12.2013](https://www.youtube.com/watch?v=CcFYwMCGaNY)
 
 
 #### Карты памяти

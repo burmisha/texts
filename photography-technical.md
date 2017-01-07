@@ -28,7 +28,7 @@
 
 #### Подробнее
 
-<http://www.afanas.ru/ROF/> — тут много, но полезно. там все предельно просто: чем больше прочтёшь и поймешь, тем лучше. Можно забивать на формулы, но желательно читать выводы из них. 
+<http://www.afanas.ru/ROF/> — тут много, но полезно. там все предельно просто: чем больше прочтёшь и поймешь, тем лучше. Можно забивать на формулы, но желательно читать выводы из них.
 
 <http://www.cambridgeincolour.com/ru/tutorials.htm> — я его не смотрел толком, но вроде всё очень неплохо.
 
@@ -134,7 +134,7 @@
 * <http://www.adobe.com/support/downloads/product.jsp?product=113&platform=Macintosh>
 * <http://www.adobe.com/support/downloads/product.jsp?product=113&platform=Windows>
 
-Как пользоваться (обзоры устарели, но не сильно): 
+Как пользоваться (обзоры устарели, но не сильно):
 * <https://vimeo.com/19640323>
 * <https://vimeo.com/8850909>
 * <http://vtrifonov.livejournal.com/16965.html>
@@ -164,3 +164,22 @@
 * <http://raw-rpp.livejournal.com/68377.html>
 * <http://skoblov.livejournal.com/143566.html>
 * <http://raw-rpp.livejournal.com/68896.html>
+
+
+### Личное мнение
+Моя техника: [раздел «Gear» на 500px](https://500px.com/burmisha/about)
+
+#### Рекомендации техники Canon
+1. Стрельнуть у друзей на неделю–две. Часто у «кул»-фотографов есть неиспользуемая камера и пара объективов.
+2. Купить б/у между Canon 450D и Canon 550D:
+  * не дороже 8000. Например, на Avito: [450D](https://www.avito.ru/moskva/fototehnika/zerkalnye_fotoapparaty?user=1&q=Canon+450D), [500D](https://www.avito.ru/moskva/fototehnika/zerkalnye_fotoapparaty?user=1&q=Canon+500D), [550D](https://www.avito.ru/moskva/fototehnika/zerkalnye_fotoapparaty?user=1&q=Canon+550D).
+  * Лучше брать камеру без объектива (body), но подойдёт и с EF-S 18-55mm f/3.5-5.6 (суффикс не важен). Если владелец не снимал и не менял объектив, то камера будет целее и чище внутри: это актуально для камер, которым уже почти 10 лет.
+  * Оптимальный вариант: камеру купили, поснимали пару месяцев (маленького ребёнка или поездку) и положили в чехле на полочку.
+3. Объективы: если камера стоит X, то каждый объектив должен стоить от X/2, иначе, скорее всего, у вас слишком крутой фотоаппарат для такой оптики (есть 2 исключения и они ниже).
+   Дешёвые хорошие объективы:
+  * Canon EF 50mm f/1.8 II. Можно с STM или первую версию (без II), но особой разницы нет.
+  * Canon EF 40mm f/2.8 STM.
+4. Если у вас вдруг много денег:
+  * Что-нибудь свежее из двухзначной линейки (Canon EOS 80D Body)
+  * Canon EF 50mm f/1.4 USM
+  * Canon EF 17-40mm f/4L USM

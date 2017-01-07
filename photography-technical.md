@@ -66,8 +66,6 @@
 
 <http://simkov.ru/wordpress/?p=694> — тоже понятно, но после прочитанного выше должно быть уже неинтересно
 
-<http://vladimirmedvedev.com/stat.html> — тут уж совсем тонкости 
-
 <http://lens-club.ru/lenses>
 
 
@@ -79,8 +77,6 @@
 <http://pavel-kosenko.livejournal.com/tag/%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8> — в последнее время я с ним во многом не согласен
 
 <http://www.fotoproekt.ru/port/msk/ru/school/articles/> — есть классные вещи
-
-<http://www.photoscape.ru/photoschool/underwatersplit> — сплит
 
 
 
@@ -98,10 +94,15 @@
 
 <http://cuiet.livejournal.com/277884.html>
 
+<https://pomax.github.io/1436836360570/we-are-really-terrible-at-digital-colours-and-digital-photography>
 
 
-#### Ночная фотосъемка
 
+#### Специальная съёмка
+Сплит:
+* <http://www.photoscape.ru/photoschool/underwatersplit>
+
+Ночная:
 * <http://jankovoy.livejournal.com/32654.html>
 * <http://jankovoy.livejournal.com/32850.html>
 
@@ -152,6 +153,11 @@
 #### Устарело или переехало
 
 <http://www.digital-photo.ru/article/page/8> — тут много, и я не вполне уверен в качестве. но глянуть стоит. я туда отсылаю прежде всего из-за статьи: <http://www.digital-photo.ru/article/technic/id/99974>
+
+<http://vladimirmedvedev.com>:
+* <http://vladimirmedvedev.com/stat.html>
+* <http://vladimirmedvedev.com/grip.html>
+* <http://vladimirmedvedev.com/dpi.html>
 
 #### Флеймы
 

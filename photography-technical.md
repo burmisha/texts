@@ -8,12 +8,10 @@
 
 
 #### Кратко
-
-<http://michael-perlov.livejournal.com/147177.html> — выбор фотика. TL;DR: любой современный, они одинаковые.
-
-<http://michael-perlov.livejournal.com/145756.html> — как снимать. TL;DR: бёрешь и снимаешь.
-
-<http://michael-perlov.livejournal.com/150800.html> — по простому про матрицу. TL;DR: она трехцветная.
+<http://michael-perlov.livejournal.com>:
+* [Выбор фотика](http://michael-perlov.livejournal.com/147177.html): любой современный, они одинаковые.
+* [Как снимать](http://michael-perlov.livejournal.com/145756.html): берёшь и снимаешь.
+* [По-простому про матрицу](http://michael-perlov.livejournal.com/150800.html): она трехцветная.
 
 
 

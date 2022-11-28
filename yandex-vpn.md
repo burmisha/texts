@@ -46,8 +46,14 @@ $ sudo bash openvpn-install.sh
 5. DNS [1-12]: `9` ← тут я поменял, но можно оставить
 6. Enable compression? [y/n]: `n`
 7. Customize encryption settings? [y/n]: `n`
-8. В какой-то момент попросит создать клиента: `YYYY-MM-DD-anyname`
+8. В какой-то момент попросит создать клиента: `YYYY-MM-anyname-XY`
 9. Select an option [1-2]: `1`
+
+```bash
+rsync --rsh="ssh -i ${HOME}/.ssh/id_ed25519_yandex" yandexvpn@XX.YYY.ZZZ.WW:/home/yandexvpn/YYYY-MM-anyname-XY.ovpn ~/vpn/
+
+open ~/vpn/YYYY-MM-anyname-XY.ovpn
+```
 
 Готово! Чтобы посмотреть делаем: `cat ${HOME}/YYYY-MM-DD-anyname.ovpn`
 Содержимое копируем себе на комп (в новый файл) и открываем файл в [Tunnelblick](https://tunnelblick.net/downloads.html).

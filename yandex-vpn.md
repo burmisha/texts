@@ -2,15 +2,16 @@
 
 Делаем на Яндексе, хотя и не все их IP-адреса подходят для Госуслуг: возможно, придётся переделывать.
 
-[cloud.yandex.ru](cloud.yandex.ru) — заходим в Яндекс.Облако:
+[cloud.yandex.ru](https://cloud.yandex.ru) — заходим в Яндекс.Облако:
 * завести аккаунт,
-* подключить карту и вот это всё.
+* [console.cloud.yandex.ru/billing](https://console.cloud.yandex.ru/billing) — подключить карту и вот это всё (или где-то можно подключить пробный период)
 
-[console.cloud.yandex.ru](console.cloud.yandex.ru) → Compute Cloud → «Создать ВМ». Тут указываем:
+
+[console.cloud.yandex.ru](https://console.cloud.yandex.ru) → Compute Cloud → «Создать ВМ». Тут указываем:
 * имя сервера: yandexvpn (или любое другое название — неважно),
 * описание: «впн для меня»,
 * зону доступности выбираем любую (я бы не трогал вообще параметр),
-* Операционная система: `Ubuntu 18.04` (та которая без GPU).
+* Операционная система: `Ubuntu 18.04`: без GPU, `22.04` у меня не работает.
 * Диски: 20 Гб должно хватить, HDD. Файловые хранилища нам не нужны, их не трогаем.
 * Платформа — можно не трогать и оставить `Intel Ice Lake`, vCPU: 2,
 а вот гарантированную долю — ставим 20% — так дешевле, RAM — 2 ГБ хватит.
@@ -27,7 +28,7 @@ $ cat "${HOME}/.ssh/id_ed25519_yandex.pub" | pbcopy
 
 Всё, убеждаемся, что цена ок, и жмём «Создать ВМ»
 
-Далее на странице [console.cloud.yandex.ru](console.cloud.yandex.ru) → `Compute Cloud`
+Далее на странице [console.cloud.yandex.ru](https://console.cloud.yandex.ru) → `Compute Cloud`
 ищем `Публичный IPv4` нового сервера: он имеет вид `XX.YYY.ZZZ.WW`, копируем:
 ```bash
 $ ssh -i "${HOME}/.ssh/id_ed25519_yandex" "yandexvpn@XX.YYY.ZZZ.WW"

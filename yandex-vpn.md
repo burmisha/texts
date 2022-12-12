@@ -57,3 +57,30 @@ open ~/vpn/YYYY-MM-anyname-XY.ovpn
 
 Готово! Чтобы посмотреть делаем: `cat ${HOME}/YYYY-MM-DD-anyname.ovpn`
 Содержимое копируем себе на комп (в новый файл) и открываем файл в [Tunnelblick](https://tunnelblick.net/downloads.html).
+
+
+## И ещё раз одной bash-функцией
+```bash
+f () {
+  local key_name="$1"
+  local remote_user="$2"
+  local server_ip="$3"
+  local cfg_name="$4"
+
+  echo ssh-keygen -t 'ed25519' -N '' -f "${HOME}/.ssh/${key_name}"
+  echo cat "${HOME}/.ssh/${key_name}.pub" "| pbcopy"
+  echo ''
+  echo "Enter ${server_ip} to openvpn"
+  echo ''
+  echo ssh -i "${HOME}/.ssh/${key_name}" "${remote_user}@${server_ip}"
+  echo ''
+  echo mkdir -p "${HOME}/openvpn-install" "&& cd $_"
+  echo curl -O 'https://raw.githubusercontent.com/angristan/openvpn-install/master/openvpn-install.sh'
+  echo sudo bash openvpn-install.sh
+  echo ''
+  echo rsync --rsh="\"ssh -i ${HOME}/.ssh/${key_name}\"" "${remote_user}@${server_ip}:/home/${remote_user}/${cfg_name}.ovpn" "${HOME}/vpn/"
+  echo open "${HOME}/vpn/${cfg_name}.ovpn"
+}
+
+f 'id_ed25519_yandex' burmisha 'XX.YYY.ZZZ.WW' "$(date +%Y-%m-%d-anyname-XY)"
+```

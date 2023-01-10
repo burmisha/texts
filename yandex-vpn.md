@@ -74,7 +74,7 @@ f () {
   echo ''
   echo ssh -i "${HOME}/.ssh/${key_name}" "${remote_user}@${server_ip}"
   echo ''
-  echo mkdir -p "${HOME}/openvpn-install" "&& cd $_"
+  echo 'mkdir -p ${HOME}/openvpn-install && cd $_'
   echo curl -O 'https://raw.githubusercontent.com/angristan/openvpn-install/master/openvpn-install.sh'
   echo sudo bash openvpn-install.sh
   echo ''

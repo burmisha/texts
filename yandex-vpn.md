@@ -4,15 +4,15 @@
 
 [cloud.yandex.ru](https://cloud.yandex.ru) — заходим в Яндекс.Облако:
 * завести аккаунт,
-* [console.cloud.yandex.ru/billing](https://console.cloud.yandex.ru/billing) — подключить карту и вот это всё (или где-то можно подключить пробный период)
-
+* [console.cloud.yandex.ru/billing](https://console.cloud.yandex.ru/billing) — подключить карту и вот это всё.
+Где-то там же в интерфейсах можно подключить пробный/тестовый период, получить грант.
 
 [console.cloud.yandex.ru](https://console.cloud.yandex.ru) → Compute Cloud → «Создать ВМ». Тут указываем:
 * имя сервера: yandexvpn (или любое другое название — неважно),
 * описание: «впн для меня»,
 * зону доступности выбираем любую (я бы не трогал вообще параметр),
 * Операционная система: `Ubuntu 18.04`: без GPU, `22.04` у меня не работает.
-* Диски: 20 Гб должно хватить, HDD. Файловые хранилища нам не нужны, их не трогаем.
+* Диски: 10 Гб должно хватить, HDD. Файловые хранилища нам не нужны, их не трогаем.
 * Платформа — можно не трогать и оставить `Intel Ice Lake`, vCPU: 2,
 а вот гарантированную долю — ставим 20% — так дешевле, RAM — 2 ГБ хватит.
 * «Прерываемая» — так ещё дешевле, но будут тормоза, а ещё IP-адрес может поменяться.
@@ -67,10 +67,13 @@ f () {
   local server_ip="$3"
   local cfg_name="$4"
 
+  # для того, чтобы получить ключик, это при создании сервера в интерфейсе
   echo ssh-keygen -t 'ed25519' -N '' -f "${HOME}/.ssh/${key_name}"
   echo cat "${HOME}/.ssh/${key_name}.pub" "| pbcopy"
+
+  # когда сервер уже создан
   echo ''
-  echo "Enter ${server_ip} to openvpn"
+  echo "Enter ${server_ip} and ${cfg_name} to openvpn"
   echo ''
   echo ssh -i "${HOME}/.ssh/${key_name}" "${remote_user}@${server_ip}"
   echo ''
